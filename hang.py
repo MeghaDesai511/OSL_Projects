@@ -1,3 +1,62 @@
+def draw(n):
+    if n == 10:
+        print()
+        print()
+        print()
+        print()
+    elif n==9:
+        print()
+        print()
+        print()
+        print("__")
+    elif n==8:
+        print()
+        print()
+        print()
+        print("_|_")
+    elif n==7:
+        print()
+        print(" | ")
+        print(" | ")
+        print("_|_")
+    elif n==6:
+        print(" ____")
+        print(" | ")
+        print(" | ")
+        print("_|_")
+    elif n==5:
+        print(" ____")
+        print(" |  0")
+        print(" | ")
+        print("_|_")
+    elif n==4:
+        print(" ____")
+        print(" |  0")
+        print(" |  |")
+        print("_|_")
+    elif n==3:
+        print(" ____")
+        print(" |  0")
+        print(" | -|")
+        print("_|_")
+    elif n==2:
+        print(" ____")
+        print(" |  0")
+        print(" | -|-")
+        print("_|_")
+    elif n==1:
+        print(" ____")
+        print(" |  0")
+        print(" | -|-")
+        print("_|_-")
+    elif n==0:
+        print(" ____")
+        print(" |  0")
+        print(" | -|-")
+        print("_|_- -")
+        print("DEAD")
+
+
 import pygame, sys
 from pygame.locals import *
 def draw(n):
